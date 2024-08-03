@@ -1,7 +1,6 @@
 package Homework;
 import java.util.Scanner;
 import java.util.Arrays;
-import java.util.InputMismatchException;
 import java.util.Random;
 public class Homework {
 	/* В методе main реализуется простейщий интерфейс для запуска учебных заданий
