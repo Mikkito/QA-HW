@@ -8,8 +8,7 @@ public class Homework {
 	 	и выход из программы. Обработка неверных значений не предусмотрена ни в одном из методов.
 	 */
 	public static void main(String arg[]) {
-		try {
-		Scanner scanner = new Scanner(System.in);
+		try (Scanner scanner = new Scanner(System.in)){
 		while (true) {
 		System.out.println("Введите номер задания или 0 для завершения: ");
 		int inp = scanner.nextInt();
